@@ -1,0 +1,84 @@
+.wrapper{
+	overflow: hidden;
+	position: relative;
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.wrapper>main{
+	flex-grow: 1;
+}
+body{
+	background-color: #333;
+	font-family: sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color:#fff;
+}
+[class*="__container"]{
+	max-width: 1180px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+.header__menu{
+	display: flex;
+	color: #fff;
+	font-family: sans-serif;
+	font-size: 15px;
+	font-weight: 700;
+	justify-content: space-between;
+	gap: 40px;
+}
+.menu__link:hover{
+	color:#ffa500;
+}
+.header{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background: url("../img/bg.jpg") center center no-repeat;
+}
+.title{
+	font-size: 26px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.first-task{
+	padding-top: 120px;
+}
+.task{
+	background: #fff;
+	border-radius: 4px;
+	padding: 20px 30px;
+	margin-bottom: 30px;
+}
+.task>div:not(:last-child){
+	margin-bottom: 16px;
+}
+.task-title {
+	font-size: 20px;
+	color: gray;
+}
+.task-condition {
+	font-size: 18px;
+	color: blue;
+}
+.red {
+	color: rgb(230, 75, 75);
+}
+.black{
+	color: #000;
+}
+.task-condition__line{
+	margin-bottom: 10px;
+}
+.task-answer{
+	line-height: 150%;
+	color: #000;
+}
+.task-answer--bad {
+	color: rgb(228, 13, 13);
+}
+.task-answer--good {
+	color: green;
+}

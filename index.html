@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Contacts</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<ul class="header__menu menu">
+					<li class="menu__item">
+						<a class="menu__link" href="#first-task">Функции</a>
+					</li>
+					<li class="menu__item">
+						<a class="menu__link" href="#second-task">Массивы</a>
+					</li>
+					<li class="menu__item">
+						<a class="menu__link" href="#third-task">Document object model (DOM)</a>
+					</li>
+					<li class="menu__item">
+						<a class="menu__link" href="#four-task">Размеры прокрутка</a>
+					</li>
+				</ul>
+			</div>
+		</header>
+		<main class="page">
+			<section class="first-task" id="first-task">
+				<div class="first-task__container">
+					<h2 class="first-task__title title">
+						Функции в JAVASCRIPT
+					</h2>
+					<div class="first-task__task task">
+						<div class="task__item task-title">
+							//№1
+						</div>
+						<div class="task__item task-answer">
+							Першим в консоль виведеться "Коля", бо першим виконається setTimeout
+						</div>
+					</div>
+					<div class="first-task__task task">
+						<div class="task__item task-title">
+							//№2
+						</div>
+						<div class="task__item task-answer task-answer--good">
+							Функція викликана вірно
+						</div>
+					</div>
+					<div class="first-task__task task">
+						<div class="task__item task-title">
+							//№3
+						</div>
+						<div class="task__item task-answer task-answer--bad">
+							Не вірно, бо функціональний вираз можна викликати лише після оголошення
+						</div>
+					</div>
+					<div class="first-task__task task">
+						<div class="task__item task-title">
+							//№4
+						</div>
+						<div class="task__item task-answer task-answer--bad">
+							Так як функція оголошена в певному блоці, то за межею цього блоку її не видно. За допомогою
+							функціонального виразу, об'являємо змінну за межею блоку і присвоюємо їй функцію
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="second-task" id="second-task">
+				<div class="second-task__container">
+					<h2 class="second-task__title title">
+						Массивы в JAVASCRIPT. Методы массивов. Редактирование, поиск, сортировка.
+					</h2>
+					<div class="second-task__task task">
+						<div class="task__item task-title">
+							//№1
+						</div>
+						<div class="task__item task-answer">
+							Відповідь буде "чотири", бо "push" додав ще один елемент в кінець масиву
+						</div>
+					</div>
+					<div class="second-task__task task">
+						<div class="task__item task-title">
+							//№2
+						</div>
+						<div class="task__item task-answer">
+							Відповідь записана в консолі та у файлі script.js
+						</div>
+					</div>
+					<div class="second-task__task task">
+						<div class="task__item task-title">
+							//№3
+						</div>
+						<div class="task__item task-answer">
+							Відповідь записана в консолі та у файлі script.js
+						</div>
+					</div>
+					<div class="second-task__task task">
+						<div class="task__item task-title">
+							//№4
+						</div>
+						<div class="task__item task-answer">
+							Відповідь записана в консолі та у файлі script.js
+						</div>
+					</div>
+					<div class="second-task__task task">
+						<div class="task__item task-title">
+							//№5
+						</div>
+						<div class="task__item task-answer">
+							В записі помилка змінна arrTwo не задана, за правильного запису відповідь 9
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="third-task" id="third-task">
+				<div class="third-task__container">
+					<h2 class="third-task__title title">
+						Document object model (DOM) за час. Изменение HTML CSS. Атрибуты и свойства. Окружение.
+					</h2>
+					<div class="third-task__task task">
+						<div class="task__item task-title">
+							//№1
+						</div>
+						<div class="task__item task-answer">
+							<div data-say-hi="yes">Привіт!</div>
+							Елемент знайдено за допомогою "querySelector". Відповідь записана в консолі та в script.js
+						</div>
+					</div>
+					<div class="third-task__task task">
+						<div class="task__item task-title">
+							//№2
+						</div>
+						<div class="task__item task-answer">
+							<ul class="task__list">
+								<li>Корчи</li>
+								<li>Йончи</li>
+							</ul>
+							Елемент знайдено за допомогою "querySelectorAll", та за допомогою перебору "for( of )" Відповідь
+							записана в консолі та в script.js
+						</div>
+					</div>
+					<div class="third-task__task task">
+						<div class="task__item task-title">
+							//№3
+						</div>
+						<div class="task__item task-answer">
+							<div class="like"></div>
+							<div class="subscribe"></div>
+							<div class="like subscribe"></div>
+							Елемент знайдено за допомогою "querySelectorAll". Відповідь записана в консолі та в script.js
+						</div>
+					</div>
+					<div class="third-task__task task">
+						<div class="task__item task-title">
+							//№4
+						</div>
+						<div class="task__item task-answer">
+							<ul class="list-add">
+								<li>Пункт №1</li>
+								<li>Пункт №2</li>
+							</ul>
+							Буде помилка, бо був використаний "querySelectorAll", якщо використати "querySelector"— елемент
+							буде доданий. Відповідь записана в консолі та в script.js
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="four-task" id="four-task">
+				<div class="four-task__container">
+					<h2 class="four-task__title title">
+						JavaScript размеры прокрутка и координаты элементов на странице и окна браузера
+					</h2>
+					<div class="four__task task">
+						<div class="task__item task-title">
+							//№1
+						</div>
+						<div class="task__item task-answer">
+							Відповідь записана в консолі та у файлі script.js
+						</div>
+					</div>
+					<div class="four__task task">
+						<div class="task__item task-title">
+							//№2
+						</div>
+						<div class="task__item task-answer">
+							Відповідь записана в консолі та у файлі script.js
+						</div>
+					</div>
+					<div class="four__task task">
+						<div class="task__item task-title">
+							//№3
+						</div>
+						<div class="task__item task-answer">
+							Відповідь записана в консолі та у файлі script.js
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer"></footer>
+	</div>
+	<script src="js/script.js"></script>
+</body>
+
+</html>
